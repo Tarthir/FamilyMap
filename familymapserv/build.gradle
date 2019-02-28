@@ -1,0 +1,13 @@
+apply plugin: 'java'
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile project(':shared')
+    compile 'junit:junit:4.12'
+    compile files('C:/Users/tyler/AndroidStudioProjects/FamilyMap/libs/sqlite-jdbc-3.7.2.jar')
+    compile files('libs/hamcrest-core-1.3.jar')
+    compile files('libs/junit-4.12.jar')
+}
+
+sourceCompatibility = "1.7"
+targetCompatibility = "1.7"

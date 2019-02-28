@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_login"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.tylerbrady34gmail.familyclient.ui.MainActivity">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/server_host"
+        android:layout_alignBaseline="@+id/server_host_input"
+        android:layout_alignBottom="@+id/server_host_input"
+        android:layout_alignStart="@+id/server_port"
+        android:text="@string/server_host_textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/user_name_input"
+        android:layout_alignBaseline="@+id/user_name"
+        android:layout_alignBottom="@+id/user_name"
+        android:layout_alignStart="@+id/server_port_input"
+        android:maxLines="1"
+        android:text="Mr" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/server_port_input"
+        android:layout_alignBaseline="@+id/server_port"
+        android:layout_alignBottom="@+id/server_port"
+        android:layout_alignStart="@+id/server_host_input"
+        android:maxLines="1"
+        android:text="8080" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/first_name_input"
+        android:layout_alignBaseline="@+id/first_name"
+        android:layout_alignBottom="@+id/first_name"
+        android:layout_alignStart="@+id/password_input"
+        android:maxLines="1"
+        android:text="firstname" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:id="@+id/gender"
+        android:layout_below="@+id/email_input"
+        android:layout_alignParentStart="true"
+        android:text="@string/gender_textView" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:layout_marginStart="14dp"
+        android:id="@+id/server_host_input"
+        style="@android:style/Widget.DeviceDefault.EditText"
+        android:maxLines="1"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/server_host"
+        android:text="192.168.252.217" />
+
+    <RadioButton
+        android:text="@string/radiofemale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/female_input"
+        android:layout_alignBaseline="@+id/male_input"
+        android:layout_alignBottom="@+id/male_input"
+        android:layout_toEndOf="@+id/male_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:id="@+id/last_name"
+        android:text="@string/last_name_textView"
+        android:layout_below="@+id/first_name_input"
+        android:layout_alignEnd="@+id/first_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/last_name_input"
+        android:maxLines="1"
+        android:layout_alignBaseline="@+id/last_name"
+        android:layout_alignBottom="@+id/last_name"
+        android:layout_alignStart="@+id/first_name_input"
+        android:text="Cool" />
+
+    <TextView
+        android:text="@string/email_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:layout_alignBaseline="@+id/email_input"
+        android:layout_alignBottom="@+id/email_input"
+        android:layout_alignStart="@+id/last_name" />
+
+    <TextView
+        android:text="@string/server_port_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/server_port"
+        android:layout_marginTop="17dp"
+        android:layout_below="@+id/server_host_input"
+        android:layout_alignStart="@+id/last_name" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/first_name"
+        android:text="@string/first_name_textView"
+        android:layout_below="@+id/password_input"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:id="@+id/user_name"
+        android:text="@string/username_textView"
+        android:layout_below="@+id/server_port_input"
+        android:layout_alignEnd="@+id/first_name" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password_input"
+        android:maxLines="1"
+        android:layout_below="@+id/user_name_input"
+        android:layout_alignStart="@+id/user_name_input"
+        android:text="Rogers" />
+
+    <Button
+        android:text="@string/register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/register_button"
+        android:layout_below="@+id/female_input"
+        android:layout_toEndOf="@+id/male_input"
+        android:layout_marginTop="26dp" />
+
+    <Button
+        android:text="@string/sign_in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_button"
+        android:layout_alignBaseline="@+id/register_button"
+        android:layout_alignBottom="@+id/register_button"
+        android:layout_toEndOf="@+id/password" />
+
+    <RadioButton
+        android:text="@string/radiomale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/male_input"
+        android:layout_alignBaseline="@+id/gender"
+        android:layout_alignBottom="@+id/gender"
+        android:layout_alignStart="@+id/email_input"
+        android:checked="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/password"
+        android:text="@string/password_textView"
+        android:layout_alignBaseline="@+id/password_input"
+        android:layout_alignBottom="@+id/password_input"
+        android:layout_alignStart="@+id/server_port" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/email_input"
+        android:maxLines="1"
+        android:layout_below="@+id/last_name_input"
+        android:layout_alignStart="@+id/last_name_input"
+        android:text="IGuess@gmail.com" />
+
+</RelativeLayout>

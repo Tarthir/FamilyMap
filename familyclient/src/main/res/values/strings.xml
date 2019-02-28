@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">familyclient</string>
+    <string name="server_host">Server Host:</string>
+    <string name="server_port">Server Port:</string>
+    <string name="email">Email:</string>
+    <string name="gender">Gender:</string>
+    <string name="first_name">First Name:</string>
+    <string name="last_name">Last Name:</string>
+    <string name="user_name">UserName:</string>
+    <string name="password">Password:</string>
+    <string name="textview_server_host">TextView_server_host</string>
+    <string name="female">Female</string>
+    <string name="male">Male</string>
+
+    <string name="toTop">Go To Top</string>
+
+    <string name="color_prompt">Choose a Color</string>
+
+    <string name="ON">On</string>
+    <string name="OFF">Off</string>
+
+    <string name="lifeText"> <b>Life Story Events</b>\n <i>SHOW LIFE STORY LINES</i></string>
+    <string name="familyText"> <b>Family Tree Events</b>\n <i>SHOW FAMILY LINES</i></string>
+    <string name="spouseText"> <b>Spouse Lines</b>\n <i>SHOW SPOUSE LINES</i></string>
+    <string name="maptypeText"> <b>MapType</b>\n <i>SHOW MAP TYPE</i></string>
+    <string name="rsycnText"> <b>Re-Sync Data</b>\n <i>RE-SYNC APP</i></string>
+    <string name="logout"><b>Logout</b>\n <i>LOGOUT OF FAMILYMAP</i></string>
+
+    <string name="textview">TextView</string>
+    <string name="textview_email">TextView_email</string>
+    <string name="textview_first_name">TextView_first_name</string>
+    <string name="textview_gender">TextView_gender</string>
+    <string name="textview_last_name">TextView_last_name</string>
+    <string name="textview_server_port">TextView_server_port</string>
+    <string name="textview_username">TextView_username</string>
+
+    <string name="radiomale">Male</string>
+    <string name="radiofemale">Female</string>
+
+    <string name="sign_in">Sign In</string>
+    <string name="register">Register</string>
+
+    <string name="settings">Settings</string>
+    <string name="search">Search</string>
+    <string name="filter">Filter</string>
+
+    <string name="male_string">Gender: Male</string>
+    <string name="female_string">Gender: Female</string>
+
+    <string name="gender_textView">Gender:</string>
+    <string name="email_textView">Email:</string>
+    <string name="first_name_textView">First Name:</string>
+    <string name="last_name_textView">Last Name:</string>
+    <string name="password_textView">Password:</string>
+    <string name="server_host_textView">Server Host:</string>
+    <string name="server_port_textView">Server Port:</string>
+    <string name="username_textView">UserName:</string>
+    <string name="fName">FIRST NAME: </string>
+    <string name="lName">LAST NAME: </string>
+
+    <string name="success_toast">Successful Sign on!</string>
+    <string name="error_toast">Sign on Failed, please try again</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="show_begining_text">Click on a marker to see the information for that event</string>
+</resources>
